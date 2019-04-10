@@ -1,6 +1,6 @@
 <template>
     <div>
-		关于我们
+		学习小组
     </div>
 </template>
 
