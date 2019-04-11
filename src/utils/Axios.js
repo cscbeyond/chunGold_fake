@@ -1,6 +1,6 @@
 import axios from 'axios';
 import Axios from 'axios';
-let baseUrl = 'http://66.112.216.237:2019';
+let baseUrl = 'http://66.112.216.237:2010';
 function myPost(url,data){
 	return new Promise((resolve,reject)=>{
 		let loading = this.$loading({
