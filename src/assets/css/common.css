@@ -4,3 +4,9 @@
   flex-direction: column;
   flex-wrap: wrap;
 }
+.clearfix:before,
+.clearfix:after {
+  content: '';
+  display: block;
+  clear: both;
+}

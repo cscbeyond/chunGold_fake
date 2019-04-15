@@ -18,6 +18,7 @@
 
 <style lang="less" scoped>
 footer{
+    text-align: center;
     padding-top: 10px;
     position: fixed;
     bottom: 0;
