@@ -2,18 +2,20 @@
     <div class="header">
         <el-menu :default-active="activeIndex" class="el-menu-demo" mode="horizontal" @select="handleSelect">
             <el-menu-item index="/course">课程</el-menu-item>
-            <el-submenu index="2">
+            <!-- <el-submenu index="2">
                 <template slot="title">hasSub</template>
                 <el-menu-item index="/reading">阅读</el-menu-item>
-                <!-- <el-menu-item index="2-2">选项2</el-menu-item> -->
-                <!-- <el-menu-item index="2-3">选项3</el-menu-item> -->
+                <el-menu-item index="2-2">选项2</el-menu-item>
+                <el-menu-item index="2-3">选项3</el-menu-item>
                 <el-submenu index="2-4">
                     <template slot="title">hasSub</template>
                     <el-menu-item index="2-4-1">学习小组</el-menu-item>
-                    <!-- <el-menu-item index="2-4-2">选项2</el-menu-item> -->
-                    <!-- <el-menu-item index="2-4-3">选项3</el-menu-item> -->
+                    <el-menu-item index="2-4-2">选项2</el-menu-item>
+                    <el-menu-item index="2-4-3">选项3</el-menu-item>
                 </el-submenu>
-            </el-submenu>
+            </el-submenu> -->
+            <el-menu-item index="/reading">阅读</el-menu-item>
+            <el-menu-item index="/studygroup">学习小组</el-menu-item>
             <el-menu-item index="/vipzone">会员专区</el-menu-item>
             <el-menu-item index="/about">关于我们</el-menu-item>
             <div class="nav-right">

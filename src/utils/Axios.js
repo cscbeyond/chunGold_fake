@@ -1,5 +1,6 @@
 import axios from 'axios';
 import Axios from 'axios';
+// import { Loading } from 'element-ui';
 let baseUrl = 'http://66.112.216.237:2010';
 function myPost(url,data){
 	return new Promise((resolve,reject)=>{

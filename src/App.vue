@@ -5,12 +5,12 @@
             <router-link to="/reading">reading</router-link>
         </div> -->
         <Header></Header>
-        <Loading></Loading>
+        <!-- <Loading></Loading> -->
         <router-view />
     </div>
 </template>
 <script>
-    import Loading from './components/Loading.vue'
+    // import Loading from './components/Loading.vue'
     import Header from './components/Header.vue';
     export default {
 
@@ -29,7 +29,7 @@
         },
         components: {
             Header,
-            Loading
+            // Loading
         }
     }
 
